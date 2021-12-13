@@ -12,7 +12,7 @@ Baseline : 교수님의 resnet 코드<br/>
 |ResNet-34|
 |ResNet-50|
 |ResNet-101|
-|<span style="color:red">ResNet-152</span>|
+|**ResNet-152**|
 |ResNeXt-50-32x8d|
 |ResNeXt-101-32x8d|
 |Wide ResNet-50-2|
