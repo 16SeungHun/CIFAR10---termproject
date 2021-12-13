@@ -6,7 +6,7 @@ Baseline : 교수님의 resnet 코드<br/>
 코딩환경 : Google colab<br/>
 방법 : pytorch 공식 홈페이지를 많이 참조함<br/>
 
-<div align="center">|테스트한 모델|
+|테스트한 모델|
 |------|
 |ResNet-18|
 |ResNet-34|
@@ -16,7 +16,7 @@ Baseline : 교수님의 resnet 코드<br/>
 |ResNeXt-50-32x8d|
 |ResNeXt-101-32x8d|
 |Wide ResNet-50-2|
-|Wide ResNet-101-2|</div>
+|Wide ResNet-101-2|
 
 |테스트한 Data Augmentation|
 |------|
