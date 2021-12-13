@@ -6,6 +6,8 @@ Baseline : 교수님의 resnet 코드<br/>
 코딩환경 : Google colab<br/>
 방법 : pytorch 공식 홈페이지를 많이 참조함<br/>
 
+**사용한 기법은 진하게 글자 표시되어있음**<br/>
+
 |테스트한 모델|
 |------|
 |ResNet-18|
