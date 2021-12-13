@@ -31,7 +31,7 @@ Baseline : 교수님의 resnet 코드<br/>
 |각종 parameters 값|
 |------|
 |**optimizer : SGD, lr = 0.001, momentum=0.9, nesterov=True**|
-| **(최대) epoch = 110 **|
+| **(최대)epoch = 110**|
 |**lr_scheduler를 사용하여 step_size=7, gamma=0.1기법 사용**|
 |**batchsize = 32**|
 
