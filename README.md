@@ -22,18 +22,18 @@ Baseline : 교수님의 resnet 코드<br/>
 
 |테스트한 Data Augmentation|
 |------|
-|**RandomCrop(32, padding=4)|
-|RandomHorizontalFlip|
-|Resize(224, interpolation=2)|
-|Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)**|
+|**RandomCrop(32, padding=4)**|
+|**RandomHorizontalFlip**|
+|**Resize(224, interpolation=2)**|
+|**Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)**|
 |CUTMIX기법|
 
 |각종 parameters 값|
 |------|
-|**optimizer : SGD, lr = 0.001, momentum=0.9, nesterov=True|
-| (최대) epoch = 110 |
-|lr_scheduler를 사용하여 step_size=7, gamma=0.1기법 사용|
-|batchsize = 32**|
+|**optimizer : SGD, lr = 0.001, momentum=0.9, nesterov=True**|
+| **(최대) epoch = 110 **|
+|**lr_scheduler를 사용하여 step_size=7, gamma=0.1기법 사용**|
+|**batchsize = 32**|
 
 1. data augmentation 방법중, CUTMIX를 사용해서 훈련시켜 봤는데, 생각보다 비약적으로 정확도가 올라가지 않아서 사용하지 않았습니다.<br/>
 2. class로 하나하나 코드를 짜서 하는 것 보다 pretreined된 model을 불러와서 transfer learning을 진행했을 때 정확도가 대략 6% 이상 향상되었습니다.<br/>
