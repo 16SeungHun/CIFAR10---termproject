@@ -7,12 +7,12 @@ Baseline : 교수님의 resnet 코드<br/>
 방법 : pytorch 공식 홈페이지를 많이 참조함<br/>
 
 |테스트한 모델|
-|------|---|---|
+|------|
 |ResNet-18|
 |ResNet-34|
 |ResNet-50|
 |ResNet-101|
-|**ResNet-152**|
+|<span style="color:red">**ResNet-152**</span>|
 |ResNeXt-50-32x8d|
 |ResNeXt-101-32x8d|
 |Wide ResNet-50-2|
