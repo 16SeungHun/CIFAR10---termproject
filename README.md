@@ -48,4 +48,8 @@ mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)의 정확도가 조금 더
 8. batchsize를 32와 16 두가지로 비교했을 때, 16보다 32가 훨씬 정확도가 높게 나왔습니다.<br/>
 9. np.random.seed(3)로 고정시켜 훈련했습니다.<br/>
 
+#결론
+RenNet-152가 가장 성능이 좋았음. Transfer learning 성능 좋음. 마지막 1 layer 제외하고 freeze 하여 사용. data augmentaion resize 성능 종음. pretrained model 사용.<br/>
+mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225) 사용. resize를 단독으로 사용하는 것 보다는 RandomCrop와 RandomHorizontalFlip를 같이 써주니 약간의 성능 향상.
+
 
