@@ -57,5 +57,8 @@ mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225) 사용. resize를 단독�
 # 테스트중 일부
 ![image](https://user-images.githubusercontent.com/79971467/145765313-1e11a915-7c79-4291-a581-501b057081af.png)
 
+![image](https://user-images.githubusercontent.com/79971467/145768315-e67d5918-c030-4ef4-9a94-e0fb95e82941.png)
+
+
 
 
