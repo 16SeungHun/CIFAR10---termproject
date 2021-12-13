@@ -35,6 +35,8 @@ Baseline : 교수님의 resnet 코드<br/>
 |**lr_scheduler를 사용하여 step_size=7, gamma=0.1기법 사용**|
 |**batchsize = 32**|
 
+
+# 훈련방법
 1. data augmentation 방법중, CUTMIX를 사용해서 훈련시켜 봤는데, 생각보다 비약적으로 정확도가 올라가지 않아서 사용하지 않았습니다.<br/>
 2. class로 하나하나 코드를 짜서 하는 것 보다 pretreined된 model을 불러와서 transfer learning을 진행했을 때 정확도가 대략 6% 이상 향상되었습니다.<br/>
 3. Resize기법을 사용했을 때 정확도가 8% 이상 향상되었습니다.<br/>
